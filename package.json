@@ -1,0 +1,26 @@
+{
+  "name": "ipeweb-graphiql",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p .",
+    "watch": "./node_modules/.bin/tsc -p . --watch",
+    "clean": "rm -r ./dist/*"
+  },
+  "devDependencies": {
+    "typescript": "2.5.3",
+    "@types/react": "16.0.7",
+    "@types/graphql": "^0.11.6"
+  },
+  "dependencies": {
+		"graphiql": "^0.11.10",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-apollo": "^1.4.16",
+    "typestyle": "^1.4.1",
+    "localStorage": "^1.0.3",
+    "ipeweb-core-styles": "^0.0.1",
+    "prop-types": "^15.6.0"
+  }
+}
